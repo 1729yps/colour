@@ -1,0 +1,35 @@
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.btn{ 
+    background-color: blue;
+    color:aliceblue;
+    font-size: 27px;
+    font-style: italic;
+    margin: auto;
+   
+}
+h1{
+    font-style: italic;
+    padding: 10px 30px;
+  
+    
+}       
+
+.container{
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+  }
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
